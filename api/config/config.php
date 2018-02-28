@@ -31,7 +31,15 @@ $config =  array(
                 'port'=>6379,
                 //'auth'=>'gao123456'
             ),
-
+            'mail'=>array(
+                'class'=>\PHPMailer\PHPMailer\PHPMailer::class,
+                'Host'=>'smtp.qq.com',
+                'SMTPAuth' => true,
+                'Username' => '963353840@qq.com',
+                'Password' => 'szwcgykrerfrbfbb',
+                'SMTPSecure' => 'ssl',
+                'Port'=> '465',
+            ),
             'view'=> array(
                 'class'=> core\view\TwigView::class,
                 'cache'=>false,
