@@ -1,6 +1,6 @@
 ![image](https://github.com/gw123/smallApiDemo/blob/master/smallApi.png?raw=true)
 # 基于swoole 一个高性能的轻量级框架
-[![Latest Version](https://img.shields.io/badge/unstable-v1.0-yellow.svg?maxAge=2592000)](https://packagist.org/packages/swoft/swoft)
+[![Latest Version](https://img.shields.io/badge/unstable-v1.0-yellow.svg?maxAge=2592000)]()
 [![Php Version](https://img.shields.io/badge/php-%3E=7.0-brightgreen.svg?maxAge=2592000)]()
 
 # 目录说明
