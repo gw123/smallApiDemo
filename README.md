@@ -1,7 +1,10 @@
 # smallApi
-使用php写的一个轻量的框架，实现依赖注入，事件机制 
+基于swoole 一个高性能的轻量级框架
+![image](https://github.com/gw123/smallApiDemo/blob/master/smallApi.png?raw=true)
 
 ##目录说明
+![image](https://github.com/gw123/smallApiDemo/blob/master/%E6%A1%86%E6%9E%B6%E8%AF%B4%E6%98%8E%E5%9B%BE.png?raw=true)
+
 ### public 为了安全 public 是外界访问根目录 ，其中 api.php 是入口文件
 ### config 是配置文件路径
 ### controller 是控制器目录
