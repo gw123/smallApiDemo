@@ -72,7 +72,8 @@ $data['content'] = '<p>Test mail</p>';
 \All::task(MailTask::class, $data);
 
 ```
-下面是两种发送方式耗时对比
+### 浏览器访问 http://youhost/index/sendMail?method=normal
+### 下面是两种发送方式耗时对比
 
 ![image](https://github.com/gw123/smallApiDemo/blob/master/smallApiDebug06.png?raw=true)
 异步的直接返回响应时间在1ms,而同步的方式需要等待邮件发送完成后返回 响应时间在1000ms左右
