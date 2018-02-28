@@ -29,14 +29,13 @@ app_entry=${prefix}/api/api.php   #入口脚本位置
 app_pid_file=/var/run/swoole.pid  #pid文件
 ```
 # 运行
-./smallApi start 启动服务
-./smallApi stop 关闭服务
-./smallApi reload 热重启服务，类似nginx reload
-./smallApi restart 请求服务
-./smallApi check 检测服务是否正常，这个命令可以配合一个 定时脚本用来检测服务是否正常，服务异常可以自动重启
+- ./smallApi start 启动服务
+- ./smallApi stop 关闭服务
+- ./smallApi reload 热重启服务，类似nginx reload
+- ./smallApi restart 请求服务
+- ./smallApi check 检测服务是否正常，这个命令可以配合一个 定时脚本用来检测服务是否正常，服务异常可以自动重启
 
-可以将脚本放到 /etc/init.d目录下面 配合 chkconfig  命令实现开机自动运行
-chkconfig --add smallApi
+### 可以将脚本放到 /etc/init.d目录下面 配合 chkconfig  命令实现开机自动运行 chkconfig --add smallApi
 
 # debug调试器
 ![image](https://github.com/gw123/smallApiDemo/blob/master/smallApiDebug01.png?raw=true)
