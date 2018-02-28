@@ -1,0 +1,15 @@
+{
+    "name": "gw/small-api-test",
+    "require": {
+        "twig/twig": "~1.24.0",
+        "phpmailer/phpmailer": "*",
+        "qiniu/php-sdk": "^7.2"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+
+}
