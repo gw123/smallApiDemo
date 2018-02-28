@@ -38,6 +38,7 @@ app_pid_file=/var/run/swoole.pid  #pid文件
 ### 可以将脚本放到 /etc/init.d目录下面 配合 chkconfig  命令实现开机自动运行 chkconfig --add smallApi
 
 # debug调试器
+### 访问 http://youhost/debug/index
 ![image](https://github.com/gw123/smallApiDemo/blob/master/smallApiDebug01.png?raw=true)
 ![image](https://github.com/gw123/smallApiDemo/blob/master/smallApiDebug02.png?raw=true)
 ![image](https://github.com/gw123/smallApiDemo/blob/master/smallApiDebug03.png?raw=true)
